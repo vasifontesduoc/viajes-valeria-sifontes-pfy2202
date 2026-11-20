@@ -38,7 +38,7 @@ function ComoFunciona() {
       <h2 className="titulo-seccion mb-3">REST vs. GraphQL en este proyecto</h2>
       <div className="mb-10 overflow-x-auto rounded-2xl bg-white shadow-suave">
         <table className="w-full text-left text-sm">
-          <thead className="bg-oceano-claro uppercase text-oceano-oscuro">
+          <thead className="bg-terracota-claro uppercase text-terracota-oscuro">
             <tr>
               <th className="px-5 py-3">Aspecto</th>
               <th className="px-5 py-3">REST</th>

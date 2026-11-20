@@ -81,7 +81,7 @@ function Destino() {
   return (
     <section>
       <nav className="mb-4 text-sm text-gris" aria-label="Ruta de navegación">
-        <Link to="/" className="hover:text-oceano hover:underline">
+        <Link to="/" className="hover:text-terracota hover:underline">
           Destinos
         </Link>
         <span className="mx-2">/</span>
@@ -115,7 +115,7 @@ function Destino() {
           <select
             value={pasajeros}
             onChange={(e) => setPasajeros(Number(e.target.value))}
-            className="rounded-xl border-2 border-borde bg-white px-3 py-2 focus:border-oceano focus:outline-none"
+            className="rounded-xl border-2 border-borde bg-white px-3 py-2 focus:border-terracota focus:outline-none"
           >
             {[1, 2, 3, 4].map((n) => (
               <option key={n} value={n}>
@@ -129,7 +129,7 @@ function Destino() {
             type="checkbox"
             checked={soloDisponibles}
             onChange={(e) => setSoloDisponibles(e.target.checked)}
-            className="h-5 w-5 accent-oceano"
+            className="h-5 w-5 accent-terracota"
           />
           Mostrar solo opciones disponibles
         </label>

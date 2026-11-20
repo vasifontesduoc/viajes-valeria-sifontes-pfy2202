@@ -8,7 +8,7 @@ function ResumenViaje({ destino, vuelo, hotel, pasajeros, habitaciones, noches, 
 
   return (
     <aside className="panel h-fit lg:sticky lg:top-6" aria-label="Resumen del viaje">
-      <h2 className="mb-1 text-xl font-bold text-oceano-oscuro">Tu viaje</h2>
+      <h2 className="mb-1 text-xl font-bold text-terracota-oscuro">Tu viaje</h2>
       <p className="mb-5 text-sm text-gris">
         {destino.bandera} {destino.ciudad}, {destino.pais}
       </p>
@@ -51,11 +51,11 @@ function ResumenViaje({ destino, vuelo, hotel, pasajeros, habitaciones, noches, 
 
       <div className="mt-5 flex items-baseline justify-between border-t border-borde pt-4">
         <span className="font-semibold">Total estimado</span>
-        <span className="text-2xl font-bold text-coral">{formatearPrecio(total)}</span>
+        <span className="text-2xl font-bold text-mostaza-oscuro">{formatearPrecio(total)}</span>
       </div>
 
       {vuelo && hotel && (
-        <p className="mt-4 rounded-xl bg-oceano-claro px-4 py-2 text-sm font-medium text-oceano-oscuro" role="status">
+        <p className="mt-4 rounded-xl bg-terracota-claro px-4 py-2 text-sm font-medium text-terracota-oscuro" role="status">
           ✓ ¡Tu viaje está listo para reservar!
         </p>
       )}

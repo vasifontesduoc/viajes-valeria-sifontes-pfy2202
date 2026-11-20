@@ -13,12 +13,12 @@ function Layout() {
 
   const estiloEnlace = ({ isActive }) =>
     `px-4 py-2 rounded-full text-sm font-semibold transition ${
-      isActive ? 'bg-white text-oceano-oscuro' : 'text-white/85 hover:bg-white/15 hover:text-white'
+      isActive ? 'bg-white text-terracota-oscuro' : 'text-white/85 hover:bg-white/15 hover:text-white'
     }`;
 
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="bg-gradient-to-br from-oceano to-oceano-oscuro text-white shadow-suave">
+      <header className="bg-gradient-to-br from-terracota to-terracota-oscuro text-white shadow-suave">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4">
           <NavLink to="/" className="font-titulo text-2xl font-bold">
             ✈️ Rumbo Sur

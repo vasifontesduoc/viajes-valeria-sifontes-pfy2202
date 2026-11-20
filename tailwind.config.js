@@ -3,27 +3,29 @@ export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
+      // Paleta "Atardecer andino"
       colors: {
-        arena: '#fbf7f0',
-        tinta: '#1e293b',
-        gris: '#64748b',
-        borde: '#e2e8f0',
-        oceano: {
-          DEFAULT: '#0e7490',
-          oscuro: '#164e63',
-          claro: '#e0f2f7',
+        crema: '#fdf6ec',
+        tinta: '#2b1d16',
+        gris: '#7a6a5f',
+        borde: '#eadfd2',
+        terracota: {
+          DEFAULT: '#b4532a',
+          oscuro: '#7c2d12',
+          claro: '#fbe9df',
         },
-        coral: {
-          DEFAULT: '#f0644f',
-          claro: '#fde8e4',
+        mostaza: {
+          DEFAULT: '#e0a526',
+          oscuro: '#9a6a0b',
+          claro: '#fbefd5',
         },
       },
       fontFamily: {
-        titulo: ['Sora', 'sans-serif'],
-        texto: ['Inter', 'sans-serif'],
+        titulo: ['Fraunces', 'serif'],
+        texto: ['Manrope', 'sans-serif'],
       },
       boxShadow: {
-        suave: '0 4px 20px rgba(15, 23, 42, 0.07)',
+        suave: '0 4px 20px rgba(124, 45, 18, 0.08)',
       },
       keyframes: {
         aparecer: {

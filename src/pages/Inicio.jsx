@@ -23,7 +23,7 @@ function Inicio() {
 
   return (
     <section>
-      <div className="mb-10 rounded-3xl bg-gradient-to-br from-oceano-claro to-coral-claro px-6 py-12 text-center sm:px-10">
+      <div className="mb-10 rounded-3xl bg-gradient-to-br from-terracota-claro to-mostaza-claro px-6 py-12 text-center sm:px-10">
         <h1 className="titulo-pagina mb-3">¿A dónde quieres viajar?</h1>
         <p className="mx-auto mb-6 max-w-2xl text-lg text-gris">
           Elige un destino y arma tu viaje con el vuelo y el hotel que más te acomoden.
@@ -34,7 +34,7 @@ function Inicio() {
           onChange={(e) => setBusqueda(e.target.value)}
           placeholder="Busca por ciudad, país o actividad..."
           aria-label="Buscar destinos"
-          className="w-full max-w-xl rounded-full border-2 border-white bg-white px-5 py-3 shadow-suave focus:border-oceano focus:outline-none"
+          className="w-full max-w-xl rounded-full border-2 border-white bg-white px-5 py-3 shadow-suave focus:border-terracota focus:outline-none"
         />
       </div>
 

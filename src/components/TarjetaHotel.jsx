@@ -8,11 +8,11 @@ function TarjetaHotel({ hotel, seleccionado, deshabilitado, motivo, onSelecciona
       onClick={onSeleccionar}
       disabled={deshabilitado}
       aria-pressed={seleccionado}
-      className={`tarjeta-seleccionable ${seleccionado ? 'border-oceano bg-oceano-claro/50' : ''}`}
+      className={`tarjeta-seleccionable ${seleccionado ? 'border-terracota bg-terracota-claro/50' : ''}`}
     >
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
-          <p className="font-titulo text-lg font-bold text-oceano-oscuro">{hotel.nombre}</p>
+          <p className="font-titulo text-lg font-bold text-terracota-oscuro">{hotel.nombre}</p>
           <p className="text-sm text-gris">
             <span className="text-amber-500" aria-label={`${hotel.estrellas} estrellas`}>
               {'★'.repeat(hotel.estrellas)}
@@ -20,7 +20,7 @@ function TarjetaHotel({ hotel, seleccionado, deshabilitado, motivo, onSelecciona
             · {hotel.zona}
           </p>
         </div>
-        <p className="text-right text-xl font-bold text-coral">
+        <p className="text-right text-xl font-bold text-mostaza-oscuro">
           {formatearPrecio(hotel.precioPorNoche)}
           <span className="block text-xs font-normal text-gris">por noche, por habitación</span>
         </p>
@@ -40,7 +40,7 @@ function TarjetaHotel({ hotel, seleccionado, deshabilitado, motivo, onSelecciona
 
       <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
         <Disponibilidad cantidad={hotel.habitacionesDisponibles} unidad="habitaciones" />
-        {seleccionado && <span className="text-sm font-semibold text-oceano">✓ Seleccionado</span>}
+        {seleccionado && <span className="text-sm font-semibold text-terracota">✓ Seleccionado</span>}
         {motivo && <span className="text-sm text-gris">{motivo}</span>}
       </div>
     </button>
