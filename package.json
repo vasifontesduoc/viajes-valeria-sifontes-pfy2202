@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build && cp dist/index.html dist/404.html",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@apollo/client": "^4.3.8",
@@ -37,5 +39,6 @@
     "workerDirectory": [
       "public"
     ]
-  }
+  },
+  "homepage": "https://vasifontesduoc.github.io/viajes-valeria-sifontes-pfy2202/"
 }
