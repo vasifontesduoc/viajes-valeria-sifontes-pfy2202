@@ -1,0 +1,1 @@
+import{r as e,t}from"./jsx-runtime-h-T1BD6K.js";import{t as n}from"./EstadoVacio-KkHmrdmu.js";var r=t();function i(){return(0,r.jsx)(`section`,{children:(0,r.jsx)(n,{icono:`🧭`,titulo:`Página no encontrada`,mensaje:`La dirección que buscas no existe.`,children:(0,r.jsx)(e,{to:`/`,className:`btn btn-primario mt-6`,children:`Ver destinos`})})})}export{i as default};
