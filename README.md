@@ -102,17 +102,6 @@ src/
 | Cómo funciona → probar errores | Mensajes claros para el error 500 de REST y el error de GraphQL |
 | Abrir una ruta inexistente | Página no encontrada |
 
-## Pruebas en navegadores
-
-| Navegador | Versión | Resultado |
-|---|---|---|
-| Google Chrome (macOS) | | ✅ / ❌ |
-| Safari (macOS) | | ✅ / ❌ |
-| Mozilla Firefox (macOS) | | ✅ / ❌ |
-| Chrome en vista móvil (DevTools, iPhone 12 Pro) | | ✅ / ❌ |
-
-En cada navegador se revisaron los recorridos de la tabla anterior, la consola sin errores (`[MSW] Mocking enabled.`) y el diseño responsive.
-
 ## Cómo ejecutarlo
 
 ```bash
