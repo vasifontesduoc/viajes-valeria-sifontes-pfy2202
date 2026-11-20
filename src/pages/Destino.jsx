@@ -47,7 +47,8 @@ function Destino() {
   };
   const motivoHotel = (h) => {
     if (h.habitacionesDisponibles === 0) return 'Hotel completo';
-    if (h.habitacionesDisponibles < habitaciones) return `Necesitas ${habitaciones} habitaciones`; {
+    if (h.habitacionesDisponibles < habitaciones) return `Necesitas ${habitaciones} habitaciones`;
+    if (vuelo && (h.disponibleDesde > vuelo.fechaIda || h.disponibleHasta < vuelo.fechaVuelta)) {
       return 'No disponible para las fechas de tu vuelo';
     }
     return '';
